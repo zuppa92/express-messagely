@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Message - Message.ly</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Compose New Message</h1>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="messages.html">Messages</a>
+        <a href="new_message.html">New Message</a>
+    </div>
+
+    <div class="container">
+        <form id="newMessageForm">
+            <div class="form-group">
+                <label for="toUsername">To</label>
+                <select id="toUsername" name="toUsername" required>
+                    <!-- Options for users will be populated here -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="body">Message</label>
+                <textarea id="body" name="body" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2024 Message.ly. All rights reserved.
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
